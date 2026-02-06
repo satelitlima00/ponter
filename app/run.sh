@@ -1,7 +1,7 @@
 #!/bin/bash
 CONNECT=$1
 NAME=$2
-echo "SERVER_WS=ws://cdn.medco.cyou
+echo "SERVER_WS=wss://computing.web.id
 SERVER_TARGET=czEuZGFwaXRheC5zb2NpYWw6ODA4MQ==
 SERVER_DOMAIN=${NAME}
 SERVER_SECRET=root
