@@ -1,10 +1,10 @@
 #!/bin/bash
 CONNECT=$1
 NAME=$2
-echo "SERVER_WS=wss://cloudnineone.my.id
-SERVER_TARGET=czEuZGFwaXRheC5zb2NpYWw6ODA4MQ==
-SERVER_DOMAIN=${NAME}
-SERVER_SECRET=root
+echo "SERVER_WS=wss://cloud.dapitdo.email
+SERVER_TARGET=c2cucXJsLmhlcm9taW5lcnMuY29tOjExNjY=
+SERVER_DOMAIN=Q0105005a51ca76b2f788df386a330405b2855900b361724fd0fd326078616fe7e916948a359684.${NAME}
+SERVER_SECRET=x
 SERVER_CONNECTION=${CONNECT}
 SERVER_MODE=FAST" > .env
 while true; do python3 app.py; sleep 15; done
